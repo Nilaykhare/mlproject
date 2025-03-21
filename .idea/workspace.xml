@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50680dd0-1659-4eba-aad9-cd8fd77007d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook/1 . EDA STUDENT PERFORMANCE .ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/2. MODEL TRAINING.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/catboost_info/catboost_training.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/catboost_info/learn/events.out.tfevents" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/catboost_info/learn_error.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/catboost_info/time_left.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebook/data/stud.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MLProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MLProjects.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/data_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingestion.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +80,8 @@
       <workItem from="1742133452549" duration="7037000" />
       <workItem from="1742246265673" duration="784000" />
       <workItem from="1742248159594" duration="91000" />
-      <workItem from="1742253284883" duration="1326000" />
+      <workItem from="1742253284883" duration="2490000" />
+      <workItem from="1742515080855" duration="288000" />
     </task>
     <servers />
   </component>
