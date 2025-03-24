@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50680dd0-1659-4eba-aad9-cd8fd77007d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/artifacts/preprocessor.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipeline/predict_pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data_ingestion.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_ingestion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catboost_info/catboost_training.json" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/catboost_training.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/learn/events.out.tfevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catboost_info/time_left.tsv" beforeDir="false" afterPath="$PROJECT_DIR$/catboost_info/time_left.tsv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/predict_pipeline" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline/train_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pipeline/train_pipeline.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/data_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/data_transformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model_trainner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model_trainner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -62,6 +73,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projects\MLProjects\pipeline" />
       <recent name="D:\Projects\MLProjects\src\components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\MLProjects\src" />
+      <recent name="D:\Projects\MLProjects\artifacts" />
     </key>
   </component>
   <component name="RunManager">
@@ -116,7 +131,7 @@
       <workItem from="1742253284883" duration="2490000" />
       <workItem from="1742515080855" duration="5552000" />
       <workItem from="1742756686653" duration="99000" />
-      <workItem from="1742756805019" duration="4359000" />
+      <workItem from="1742756805019" duration="9058000" />
     </task>
     <servers />
   </component>
