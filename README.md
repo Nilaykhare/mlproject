@@ -18,10 +18,9 @@ This project aims to predict **student performance indicators** using machine le
 ## 🔧 Tech Stack
 
 - **Languages & Tools:** Python, Docker, Git, GitHub Actions
-- **Machine Learning:** Pandas, Scikit-learn, MLflow
-- **API & Serving:** FastAPI, Uvicorn
-- **Cloud & DevOps:** AWS (S3, EC2, ECR, CodePipeline, CodeBuild), CI/CD
-- **Version Control & Experiment Tracking:** Git, MLflow (optional: DVC for data versioning)
+- **Machine Learning:** Pandas, Scikit-learn
+- **Cloud & DevOps:** AWS Elastic Beanstalk, CI/CD
+- **Version Control & Experiment Tracking:** Git
 
 ---
 
@@ -29,27 +28,24 @@ This project aims to predict **student performance indicators** using machine le
 
 ### 1. Data Ingestion
 - Collect raw student performance data from source files.
-- Store data in an **S3 bucket** and load into pipeline.
+- Store data and load it into the pipeline.
 
 ### 2. Data Transformation
 - Clean and preprocess data (handle nulls, encode categorical variables, feature scaling).
 - Generate a model-ready dataset.
 
 ### 3. Model Training
-- Train ML models like Decision Tree, Random Forest, or Logistic Regression.
-- Track hyperparameters and performance metrics using MLflow.
+- Train ML models like Decision Trees, Random Forests, or Logistic Regression.
+- Hyperparameters tunning
 
 ### 4. Model Evaluation
-- Evaluate the model using accuracy, precision, recall, F1-score.
+- Evaluate the model using accuracy, precision, recall, and F1-score.
 
 ### 5. Model Packaging
 - Save the trained model.
 - Package the model using **Docker** for consistent deployment.
 
 ### 6. Model Deployment
-- Serve the model using **FastAPI** on an **AWS EC2 instance**.
-- Deploy via **AWS CodePipeline + CodeBuild** for CI/CD.
-
----
-
-## 📁 Project Structure
+- Serve the trained model using a **FastAPI** application.
+- Deploy the containerized application to **AWS Elastic Beanstalk**.
+- Automate the deployment process using **CI/CD pipelines** (e.g., GitHub Actions or AWS CodePipeline).
